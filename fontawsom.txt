@@ -1,0 +1,8 @@
+fontawsome
+<i>タグコピー　でDwに貼付け　※この段階ではまだ表示されない
+
+fontawsome で前に保存していたコード使う↓
+
+　<script src="https://kit.fontawesome.com/0a04ea38a7.js" crossorigin="anonymous"></script>
+
+※タイトルタグの下に貼付け

@@ -1,0 +1,292 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width:480px)
+{
+  
+  
+  /*-----------
+  全体構造
+  ------------*/
+  .content{
+    width: auto;
+  }
+  main{
+    margin-top: 0;
+  }
+  
+  
+  /*-------------
+  ヘッダー
+  --------------*/
+  header{
+    height: auto;
+    position: static;
+    padding-top: 20px;
+  }
+  header .headerinner{
+    width: auto;
+    text-align: center;
+    line-height: 70px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+  }
+  .headerinner h1{
+    float: none;
+  }
+  /* スマホ表示時 */
+  .headerinner .hamburger-button{
+    display: flex;
+  }
+ 
+  .headerinner .main-nav{
+    display: none;
+  }
+ 
+  
+  
+  /*-------------
+  メイン
+  ---------------*/
+  article h2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  /*--------------
+  フッダー
+  ---------------*/
+  
+  
+  /*--------------
+  トップページ
+  ---------------*/
+  .page .top-main-image{
+  }
+  .page .top-main-image-inner{
+    width: auto;
+    height: auto;
+    background-color: #f4efee;
+  }
+  .page .top-main-image-inner img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .page .top-main-image-inner h2{
+    position: static;
+    margin: 0 20px;
+    color: #494848;
+  }
+  .page .info{
+    width: auto;
+  }
+  .page .info h3{
+    margin: 30px 0 20px 0;
+  }
+  .page .info-inner{
+    width: auto;
+    text-align: center;
+  }  
+  .page .info-inner figure{
+    float: none;
+  }
+  .page .wellness-inner{
+    width: auto;
+    margin: 0 20px;
+  }
+  .page .wellness-inner p{
+    width: auto;
+  }
+  .page .bunsi-inner{
+	 width: auto;
+  }
+	.page .bunsi-inner p{
+	 width: auto;
+	 margin: 0 20px;
+	}
+  
+  /*---------------
+  プロフィールページ
+  ----------------*/
+  .article-inner1{
+  background-size: 30%;
+  }
+  .meisi img{
+    width: 100%;
+    height: auto;
+  }
+  .profile .meisi{
+    width: auto;
+  }
+  .meisi .meisi-inner{
+    width: auto;
+    height: auto;
+    padding: 50px;
+    margin: 0;
+    
+  }
+  .meisi .meisi-inner2{
+    margin: 0 auto;
+  }
+  .aboutme{
+    width: auto;
+    margin: 0 40px;
+    text-align: center;
+  }
+  .sikaku h3{
+    width: auto;
+    float: none;
+    padding-bottom: 10px;
+  }
+  .sikaku p{
+    text-align: center;
+  }
+  .keireki h3{
+    width: auto;
+    padding-bottom: 10px;
+    float: none;
+  }
+  .keireki p{
+    width: auto;
+    text-align: justify;
+  }
+  .aboutme .keireki{
+    margin-bottom: 30px;
+  }
+  .article-inner2{
+  background-image: none;
+  }
+  
+  
+  
+  /*----------------
+  ブログページ
+  -----------------*/
+  .blog article .hana2{
+    background-image: none;
+  }
+  .blog article .hana2{
+    padding-top: 40px;
+  }
+  .hana1.blog-inner1{
+    width: auto;
+  }
+  .hana2 .blog-inner2{
+    width: auto;
+    text-align: center;
+  }
+  .hana2 .blog-inner2 figure{
+    margin-bottom: 40px;
+  }
+  .hana2 .blog-inner2 img{
+    width: 300px;
+    height: auto;
+  }
+  .hana2 .blog-inner2 figcaption p{
+    margin: 0 40px;
+    text-align: justify;
+  }
+  
+  
+  /*----------------
+  活動ページ
+  -----------------*/
+  .katudou .section{
+    width: auto;
+  }
+  .katudou .section section{
+    border-bottom: none;
+    height: auto;
+    text-align: center;
+  }
+  .katudou .section h3{
+    text-align: justify;
+  }
+  .zyosi{
+  }
+  .zyosi img{
+    float: none;
+    margin-right: 0;
+  }
+  .zyosi .zyosi-inner{
+    margin-left: 0;
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .zyosi p{
+    text-align: justify;
+  }
+  
+  .eiyou{
+  }
+  .eiyou img{
+    float: none;
+  }
+  .eiyou .eiyou-inner{
+    padding-top: 10px;
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .eiyou p{
+    width: auto;
+    text-align: justify;
+    margin-right: 0;
+  }
+  .eiyou figure{
+  }
+  
+  .syoku{
+  }
+  .syoku img{
+    float: none;
+    margin-right: 0;
+  }
+  .syoku .syoku-inner{
+    margin-left: 0;
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .syoku p{
+    text-align: justify;
+  }
+  
+  /*----------------
+  お問合せ
+  -----------------*/
+  .contact{
+    margin: 0 30px;
+  }
+  .contact h2{
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .contact p{
+    margin-bottom: 40px;
+  }
+  .contact form{
+    width: auto;
+  } 
+  .contact table{
+    margin: 20px auto;
+  }
+  .contact th,
+  .contact td{
+    display: block
+  }
+  .contact th{
+    padding-right: 0;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .contact td{
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+}
