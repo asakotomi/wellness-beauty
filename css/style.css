@@ -110,14 +110,14 @@ footer p{
 /*------------------------
 TOPページ　のメイン bodyセレクタtop
 -------------------------*/
-.page .top-main-image {
+.top .top-main-image {
  background-image: url("../images/top-backimage.png") ;
   background-repeat: no-repeat;
   background-position: center bottom;
   padding-bottom: 15vw;/*上下に拡大*/
   background-size: contain;/*背景画像広げる*/
 }
-.page .top-main-image-inner{
+.top .top-main-image-inner{
   width: 900px;
   margin-bottom: 100px;
   height: 500px;
@@ -126,11 +126,10 @@ TOPページ　のメイン bodyセレクタtop
   text-align: center;
   opacity: 0;/*ふわっと表示初期*/
 }
-.page .top-main-image-inner.on{
+.top .top-main-image-inner.on{
   opacity: 1;
 }
-
-.page .top-main-image-inner h2 {
+.top .top-main-image-inner h2{
   font-size: 20px;
   color: #000;
   line-height: 1.5;
@@ -139,55 +138,64 @@ TOPページ　のメイン bodyセレクタtop
   left: 80px;
   text-align: justify;
 }
-.page .info{
-  width: 900px;
-  margin-bottom: 100px;
-  margin: 0 auto;
-}
-.page .info h3{
+.top h3{
+  font-family: Parisienne;
   font-size: 40px;
   line-height: 30px;
   color: #c69d97;
   font-weight: normal;
-  font-family: Parisienne;
   margin: 50px 0 40px 0;
   text-align: center;
-  opacity: 0;/*ふわっと表示初期*/
 }
-.page .info h3.on{
-  opacity: 1;/*ふわっと表示on*/
-}
-.page .info h3 span{
+.top h3 span{
   font-size: 14px;
 }
-.page .info-inner{
+.top p{
+  width: 480px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  line-height: 1.5;
+  color: #494848; 
+}
+
+.top .info{
+  width: 900px;
+  margin-bottom: 100px;
+  margin: 0 auto;
+}
+.top .info h3{
+  opacity: 0;/*ふわっと表示初期*/
+}
+.top .info h3.on{
+  opacity: 1;/*ふわっと表示on*/
+}
+.top .info-inner{
   overflow: hidden;
   margin-bottom: 30px;
   width: 880px;/*計算して幅を追加*/
   margin: 0 auto;/*floatコンテンツの中央配置*/
   opacity: 0;/*ふわっと表示初期*/
 }
-.page .info-inner.on{
+.top .info-inner.on{
   opacity: 1;/*ふわっと表示on*/
 }
-.page .info-inner figure{
+.top .info-inner figure{
   float: left;
   margin: 20px 10px 20px 10px;
 }
-
-.page .info-inner figure a{
+.top .info-inner figure a{
 }
-.page .info img{
+.top .info img{
   margin-bottom: 20px;
 }
-.page .info-inner figcaption{
+.top .info-inner figcaption{
   font-size: 16px;
   font-weight: normal;
   color: #c69d97;
   text-align: center;
 }
 
-.page .wellness{
+.top .wellness{
   clear: both;
   background-image: url("../images/top-backimage2.png");
   background-repeat: no-repeat;
@@ -197,66 +205,28 @@ TOPページ　のメイン bodyセレクタtop
   opacity: 0;/*ふわっと表示初期*/
   margin-bottom: 100px;
 }
-.page .wellness.on{
+.top .wellness.on{
   opacity: 1;/*ふわっと表示on*/
 }
-.page .wellness-inner{
+.top .wellness-inner{
   width: 900px;
   margin: 0 auto;
 }
-.page .wellness-inner h3{
-  font-size: 40px;
-  line-height: 30px;
-  color: #c69d97;
-  font-weight: normal;
-  font-family: Parisienne;
-  margin: 30px 0 40px 0;
-  text-align: center;
-}
-.page .wellness-inner h3 span{
-  font-size: 14px;
-}
-.page .wellness-inner p{
-  width: 480px;
-  margin: 0 auto;
-  padding-bottom: 60px;
-  line-height: 1.5;
-  color: #494848;
-}
 
-.page .bunsi{
+.top .bunsi{
   opacity: 0;/*ふわっと表示初期*/
 }
-.page .bunsi.on{
+.top .bunsi.on{
   opacity: 1;/*ふわっと表示on*/
 }
-.page .bunsi-inner{
+.top .bunsi-inner{
 	width: 900px;
 	margin: 0 auto;
-}
-.page .bunsi-inner h3{
-  font-size: 30px;
-  line-height: 30px;
-  color: #c69d97;
-  font-weight: normal;
-  margin-bottom: 40px;
-  text-align: center;
-}
-.page .bunsi-inner p{
-  width: 480px;
-  margin: 0 auto;
-  padding-bottom: 60px;
-  line-height: 1.5;
-  color: #494848;
 }
 
 /*------------------------
 プロフィールページのメイン bodyセレクタprofile
 -------------------------*/
-
-.profile{}
-article{
-}
 .profile .meisi{
   opacity: 0;
 }
@@ -409,12 +379,11 @@ article .hana1{
 /*---------------------------
 活動ページ　body.katudou
 ----------------------------*/
-.katudou{}
 .katudou article{
-  margin-bottom: 100px;
+  margin-bottom:200px;
 }
 .katudou h2{
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 .katudou h2 span{
   margin-bottom: 80px;
@@ -477,12 +446,10 @@ article .hana1{
 	margin-right: 30px;
 }
 
-.syoku{
+.katudou .syoku{
   clear: both;
-  opacity: 0;
 }
 .syoku.on{
-  opacity: 1;
 }
 .syoku img{
 	float: left;

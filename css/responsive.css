@@ -61,50 +61,48 @@
   /*--------------
   トップページ
   ---------------*/
-  .page .top-main-image{
+  .top .top-main-image{
   }
-  .page .top-main-image-inner{
+  .top .top-main-image-inner{
     width: auto;
     height: auto;
     background-color: #f4efee;
   }
-  .page .top-main-image-inner img {
+  .top .top-main-image-inner img {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
   }
-  .page .top-main-image-inner h2{
+ .top .top-main-image-inner h2{
     position: static;
     margin: 0 20px;
     color: #494848;
   }
-  .page .info{
+  .top .info{
     width: auto;
   }
-  .page .info h3{
+  .top .info h3{
     margin: 30px 0 20px 0;
   }
-  .page .info-inner{
+  .top .info-inner{
     width: auto;
     text-align: center;
   }  
-  .page .info-inner figure{
+  .top .info-inner figure{
     float: none;
   }
-  .page .wellness-inner{
+
+  .top .wellness-inner{
     width: auto;
     margin: 0 20px;
   }
-  .page .wellness-inner p{
+  .top p{
     width: auto;
   }
-  .page .bunsi-inner{
-	 width: auto;
+  .top .bunsi-inner{
+	width: auto;
+	margin: 0 20px;
   }
-	.page .bunsi-inner p{
-	 width: auto;
-	 margin: 0 20px;
-	}
   
   /*---------------
   プロフィールページ
@@ -172,6 +170,10 @@
   .hana1.blog-inner1{
     width: auto;
   }
+  .blog-inner1 p{
+	width: 300px;
+	margin: 0 auto;
+  }
   .hana2 .blog-inner2{
     width: auto;
     text-align: center;
@@ -192,13 +194,18 @@
   /*----------------
   活動ページ
   -----------------*/
-  .katudou .section{
-    width: auto;
+  .katudou article{
+    margin-bottom: 60px;
   }
-  .katudou .section section{
-    border-bottom: none;
+  .katudou article h2{
+	margin-bottom: 30px;
+	}
+  .katudou section{
+    width: auto;
+	border-bottom: none;
     height: auto;
     text-align: center;
+	margin-bottom: 60px;
   }
   .katudou .section h3{
     text-align: justify;
