@@ -271,58 +271,46 @@ TOPページ　のメイン bodyセレクタtop
   font-family: Parisienne;
   margin-left: 10px;
 }
-.article-inner2{
-  background-image: url("../images/hana2.png");
-  background-repeat: no-repeat;
-  background-position: left 5% bottom;
-}
 .aboutme{
   width: 700px;/*innerに幅を合わせてカット。マージン効の為*/
   margin: 0 auto;
   margin-top: -100px;
 }
 .aboutme .sikaku{
-  overflow: hidden;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   opacity: 0;
 }
 .aboutme .sikaku.on{
   opacity: 1;
 }
-.sikaku h3{
+.aboutme h3{
   font-size: 20px;
   font-weight: lighter;
   color: #c69d97;
-  width: 200px;
+  margin-bottom: 20px;
+}
+.aboutme h4{
+  padding: 0 20px 0 10px;
   float: left;
-  padding-bottom: 22px;/*右側の文字と高さ合わせた*/
+  line-height: 2;
 }
 .sikaku p{
-  line-height: 1.5;
+  line-height: 2;
   color: #494848;
+  margin-left: 70px;
 }
 .aboutme .keireki{
-  clear: both;
   margin-bottom: 100px;
   opacity: 0;
 }
 .aboutme .keireki.on{
   opacity: 1;
 }
-.keireki h3{
-  font-size: 20px;
-  font-weight: lighter;
-  color: #c69d97;
-  width: 200px;
-  float: left;
-  padding-bottom: 450px;/*右側の文字と高さ合わせた*/
-}
 .keireki p{
-  width: 700px;
-  line-height: 1.3;
+  line-height: 2;
   color: #494848;
+  margin-left: 20px;
 }
-
 
 /*----------------------------
 Blogページ　body.blog
@@ -380,7 +368,7 @@ article .hana1{
 活動ページ　body.katudou
 ----------------------------*/
 .katudou article{
-  margin-bottom:200px;
+  margin-bottom:100px;
 }
 .katudou h2{
   margin-bottom: 80px;
@@ -394,7 +382,6 @@ article .hana1{
   width: 900px;
   margin: 0 auto;
   margin-bottom: 40px;
-  height: 200px;
   border-bottom: 15px solid #f4efee;
 　overflow: hidden;
 }
@@ -404,22 +391,18 @@ article .hana1{
 .katudou section.on{
   opacity: 1;
 }
+.katudou h3{
+  color: #c69d97;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.katudou p{
+	line-height: 1.8;
+}
 
 .zyosi img{
 	float: left;
-	margin-right: 30px;
-}
-.zyosi .zyosi-inner{
-  margin-left: 200px;/*画像の幅*/
-  padding-top: 20px;
-}
-.zyosi h3{
-	color: #c69d97;
-	font-size: 18px;
-	margin-bottom: 10px;
-}
-.zyosi p{
-	line-height: 1.5;
+	padding: 20px 20px 60px 0;
 }
 
 .eiyou{
@@ -432,18 +415,9 @@ article .hana1{
 .eiyou img{
   float: right;
 }
-.eiyou .eiyou-inner{
-	padding-top: 20px;
-}
-.eiyou h3{
-	color: #c69d97;
-	font-size: 18px;
-	margin-bottom: 10px;
-}
 .eiyou p{
 	width: 670px;
-	line-height: 1.5;
-	margin-right: 30px;
+	margin-right: 20px;
 }
 
 .katudou .syoku{
@@ -453,18 +427,12 @@ article .hana1{
 }
 .syoku img{
 	float: left;
-	margin-right: 30px;
+	padding: 20px 20px 80px 0;
 }
-.syoku .syoku-inner{
-  	padding-top: 20px;
-}
-.syoku h3{
-	color: #c69d97;
-	font-size: 18px;
-	margin-bottom: 10px;
-}
-.syoku p{
-	line-height: 1.5;
+
+.kozin img{
+	float: left;
+	padding: 20px 20px 160px 0;
 }
 
 /*--------------------------
