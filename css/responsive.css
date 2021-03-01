@@ -132,24 +132,24 @@
     margin: 0 40px;
     text-align: center;
   }
-  .sikaku h3{
-    width: auto;
-    float: none;
-    padding-bottom: 10px;
-  }
-  .sikaku p{
-    text-align: center;
-  }
   .keireki h3{
     width: auto;
+    float: none;
+    padding-bottom: 10px;
+  }
+  .keireki p{
+    text-align: justify;
+  }
+  .zikosyoukai h3{
+    width: auto;
     padding-bottom: 10px;
     float: none;
   }
-  .keireki p{
+  .zikosyoukai p{
     width: auto;
     text-align: justify;
   }
-  .aboutme .keireki{
+  .aboutme .zikosyoukai{
     margin-bottom: 30px;
   }
   .article-inner2{
@@ -207,60 +207,31 @@
     text-align: center;
 	margin-bottom: 60px;
   }
-  .katudou .section h3{
-    text-align: justify;
+  .katudou h3{
+    text-align: center;
   }
-  .zyosi{
-  }
-  .zyosi img{
+  .katudou img{
     float: none;
-    margin-right: 0;
+    padding: 0 0 20px 0 ;
   }
-  .zyosi .zyosi-inner{
+  section div{
     margin-left: 0;
-    width: 200px;
+    width: 250px;
     height: auto;
     margin: 0 auto;
   }
-  .zyosi p{
+  .katudou section p{
     text-align: justify;
   }
-  
-  .eiyou{
-  }
-  .eiyou img{
-    float: none;
-  }
-  .eiyou .eiyou-inner{
-    padding-top: 10px;
-    width: 200px;
-    height: auto;
-    margin: 0 auto;
-  }
-  .eiyou p{
-    width: auto;
-    text-align: justify;
-    margin-right: 0;
-  }
-  .eiyou figure{
-  }
-  
-  .syoku{
-  }
-  .syoku img{
-    float: none;
-    margin-right: 0;
-  }
-  .syoku .syoku-inner{
-    margin-left: 0;
-    width: 200px;
-    height: auto;
-    margin: 0 auto;
-  }
-  .syoku p{
-    text-align: justify;
-  }
-  
+	.kodomo-inner{
+		width: 250px;
+	}
+	.campany-inner{
+		width: 250px;
+	}
+.kozin2{
+	margin: 20px 0 0 0;
+}	
   /*----------------
   お問合せ
   -----------------*/

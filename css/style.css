@@ -1,34 +1,27 @@
 @charset "utf-8";
 /* CSS Document */
-
-
 /*-------------------------
 全体構造
 --------------------------*/
 body {
   color: #000;
   font-size: 14px;
-  font-family: 'Noto Sans JP', sans-serif,'Parisienne', cursive,
-  "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+  font-family: 'Noto Sans JP', sans-serif, 'Parisienne', cursive, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
 }
-
 a {
   text-decoration: none;
 }
-.page {
-}
-
-
+.page {}
 /*------------------------
 ヘッダー
 -------------------------*/
 header {
   height: 140px;
-  position: fixed;/*上に固定*/
+  position: fixed; /*上に固定*/
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1; 
+  z-index: 1;
   background-color: #FFFFFF;
 }
 header .headerinner {
@@ -43,20 +36,20 @@ header .headerinner {
   font-weight: normal;
   float: left;
 }
-.headerinner a{
+.headerinner a {
   color: #000;
 }
-.headerinner a:hover{
- color: #c69d97;
+.headerinner a:hover {
+  color: #c69d97;
 }
-.headerinner h1 span{
+.headerinner h1 span {
   color: #c69d97;
 }
 /* PC時には非表示 */
-.headerinner .hamburger-button{
+.headerinner .hamburger-button {
   display: none;
 }
-.headerinner .main-nav{
+.headerinner .main-nav {
   width: 530px;
   float: right;
 }
@@ -73,63 +66,68 @@ header .headerinner {
   padding: 10px 20px;
   margin: 0 5px;
 }
-
 /*---------------------
 メイン（共通）
 -----------------------*/
 main {
-  margin-top: 140px;/*ヘッダーにposition: fixedを入れて固定したため*/
+  margin-top: 140px; /*ヘッダーにposition: fixedを入れて固定したため*/
 }
-h2{
+h2 {
   font-family: Parisienne;
   font-size: 40px;
   color: #c69d97;
   margin-bottom: 60px;
 }
-article h2{
+article h2 {
   text-align: center;
 }
-h2 span{
-	font-size: 14px;
+h2 span {
+  font-size: 14px;
 }
-
-
 /*-----------------------
 フッター
 -----------------------*/
-footer{
+footer {
   height: 70px;
-  clear: both;/*活動ページのフロート解除*/
+  clear: both; /*活動ページのフロート解除*/
 }
-footer p{
+footer p {
   text-align: center;
   line-height: 70px;
 }
-
-
+.yazirusi a {
+  font-size: 40px;
+  font-weight: lighter;
+  text-decoration: none;
+  color: #c69d97;
+  padding: 0 10px;
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+}
 /*------------------------
 TOPページ　のメイン bodyセレクタtop
 -------------------------*/
 .top .top-main-image {
- background-image: url("../images/top-backimage.png") ;
+  background-image: url("../images/top-backimage.png");
   background-repeat: no-repeat;
   background-position: center bottom;
-  padding-bottom: 15vw;/*上下に拡大*/
-  background-size: contain;/*背景画像広げる*/
+  padding-bottom: 15vw; /*上下に拡大*/
+  background-size: contain; /*背景画像広げる*/
 }
-.top .top-main-image-inner{
+.top .top-main-image-inner {
   width: 900px;
   margin-bottom: 100px;
   height: 500px;
   position: relative;
   margin: 0 auto;
   text-align: center;
-  opacity: 0;/*ふわっと表示初期*/
+  opacity: 0; /*ふわっと表示初期*/
 }
-.top .top-main-image-inner.on{
+.top .top-main-image-inner.on {
   opacity: 1;
 }
-.top .top-main-image-inner h2{
+.top .top-main-image-inner h2 {
   font-size: 20px;
   color: #000;
   line-height: 1.5;
@@ -138,7 +136,7 @@ TOPページ　のメイン bodyセレクタtop
   left: 80px;
   text-align: justify;
 }
-.top h3{
+.top h3 {
   font-family: Parisienne;
   font-size: 40px;
   line-height: 30px;
@@ -147,354 +145,336 @@ TOPページ　のメイン bodyセレクタtop
   margin: 50px 0 40px 0;
   text-align: center;
 }
-.top h3 span{
+.top h3 span {
   font-size: 14px;
 }
-.top p{
+.top p {
   width: 480px;
   margin: 0 auto;
   padding-bottom: 60px;
   line-height: 1.5;
-  color: #494848; 
+  color: #494848;
 }
-
-.top .info{
+.top .info {
   width: 900px;
   margin-bottom: 100px;
   margin: 0 auto;
 }
-.top .info h3{
-  opacity: 0;/*ふわっと表示初期*/
+.top .info h3 {
+  opacity: 0; /*ふわっと表示初期*/
 }
-.top .info h3.on{
-  opacity: 1;/*ふわっと表示on*/
+.top .info h3.on {
+  opacity: 1; /*ふわっと表示on*/
 }
-.top .info-inner{
+.top .info-inner {
   overflow: hidden;
   margin-bottom: 30px;
-  width: 880px;/*計算して幅を追加*/
-  margin: 0 auto;/*floatコンテンツの中央配置*/
-  opacity: 0;/*ふわっと表示初期*/
+  width: 880px; /*計算して幅を追加*/
+  margin: 0 auto; /*floatコンテンツの中央配置*/
+  opacity: 0; /*ふわっと表示初期*/
 }
-.top .info-inner.on{
-  opacity: 1;/*ふわっと表示on*/
+.top .info-inner.on {
+  opacity: 1; /*ふわっと表示on*/
 }
-.top .info-inner figure{
+.top .info-inner figure {
   float: left;
   margin: 20px 10px 20px 10px;
 }
-.top .info-inner figure a{
-}
-.top .info img{
+.top .info-inner figure a {}
+.top .info img {
   margin-bottom: 20px;
 }
-.top .info-inner figcaption{
+.top .info-inner figcaption {
   font-size: 16px;
   font-weight: normal;
   color: #c69d97;
   text-align: center;
 }
-
-.top .wellness{
+.top .wellness {
   clear: both;
   background-image: url("../images/top-backimage2.png");
   background-repeat: no-repeat;
   background-position: center top;
   padding-top: 100px;
   background-size: cover;
-  opacity: 0;/*ふわっと表示初期*/
+  opacity: 0; /*ふわっと表示初期*/
   margin-bottom: 100px;
 }
-.top .wellness.on{
-  opacity: 1;/*ふわっと表示on*/
+.top .wellness.on {
+  opacity: 1; /*ふわっと表示on*/
 }
-.top .wellness-inner{
+.top .wellness-inner {
   width: 900px;
   margin: 0 auto;
 }
-
-.top .bunsi{
-  opacity: 0;/*ふわっと表示初期*/
+.top .bunsi {
+  opacity: 0; /*ふわっと表示初期*/
 }
-.top .bunsi.on{
-  opacity: 1;/*ふわっと表示on*/
+.top .bunsi.on {
+  opacity: 1; /*ふわっと表示on*/
 }
-.top .bunsi-inner{
-	width: 900px;
-	margin: 0 auto;
+.top .bunsi-inner {
+  width: 900px;
+  margin: 0 auto;
 }
-
 /*------------------------
 プロフィールページのメイン bodyセレクタprofile
 -------------------------*/
-.profile .meisi{
+.profile .meisi {
   opacity: 0;
 }
-.profile .meisi.on{
+.profile .meisi.on {
   opacity: 1;
 }
-.article-inner1{
+.article-inner1 {
   background-image: url("../images/hana1.png");
   background-repeat: no-repeat;
-  background-position: right 5%  bottom;
+  background-position: right 5% bottom;
   padding-bottom: 100px;
 }
-.profile .meisi{
-  width: 850px;/*innerに幅を合わせてカット。マージン効の為*/
+.profile .meisi {
+  width: 850px; /*innerに幅を合わせてカット。マージン効の為*/
   margin: 0 auto;
 }
-.meisi img{}
-.meisi .meisi-inner{
+.meisi img {}
+.meisi .meisi-inner {
   width: 500px;
   height: 280px;
   background-color: #f4efee;
   padding: 100px 0 0 200px;
   margin: -200px 0 100px 350px;
 }
-.meisi .meisi-inner2{
+.meisi .meisi-inner2 {
   width: 200px;
   height: 80px;
 }
-.meisi-inner h3{
+.meisi-inner h3 {
   font-size: 20px;
   font-weight: lighter;
   margin-bottom: 20px;
 }
-.meisi-inner p{
+.meisi-inner p {
   font-size: 20px;
   font-weight: lighter;
   color: #c69d97;
 }
-.meisi-inner p span{
+.meisi-inner p span {
   font-size: 16px;
   font-weight: lighter;
   font-family: Parisienne;
   margin-left: 10px;
 }
-.aboutme{
-  width: 700px;/*innerに幅を合わせてカット。マージン効の為*/
+.aboutme {
+  width: 700px; /*innerに幅を合わせてカット。マージン効の為*/
   margin: 0 auto;
   margin-top: -100px;
 }
-.aboutme .sikaku{
+.aboutme .keireki {
   margin-bottom: 60px;
   opacity: 0;
 }
-.aboutme .sikaku.on{
+.aboutme .keireki.on {
   opacity: 1;
 }
-.aboutme h3{
+.aboutme h3 {
   font-size: 20px;
   font-weight: lighter;
   color: #c69d97;
   margin-bottom: 20px;
 }
-.aboutme h4{
+.aboutme h4 {
   padding: 0 20px 0 10px;
   float: left;
   line-height: 2;
 }
-.sikaku p{
+.keireki p {
   line-height: 2;
   color: #494848;
   margin-left: 70px;
 }
-.aboutme .keireki{
+.aboutme .zikosyoukai {
   margin-bottom: 100px;
   opacity: 0;
 }
-.aboutme .keireki.on{
+.aboutme .zikosyoukai.on {
   opacity: 1;
 }
-.keireki p{
+.zikosyoukai p {
   line-height: 2;
   color: #494848;
   margin-left: 20px;
 }
-
 /*----------------------------
 Blogページ　body.blog
 ------------------------------*/
-.blog{}
-.blog article{}
-article .hana1{
-}
-.hana1.blog-inner1{
+.blog {}
+.blog article {}
+article .hana1 {}
+.hana1.blog-inner1 {
   width: 450px;
   margin: 0 auto;
 }
-.blog-inner1 h2{
+.blog-inner1 h2 {
   margin-bottom: 0;
 }
-.blog-inner1 p{
-	text-align: center;
-	line-height: 1.5;
+.blog-inner1 p {
+  text-align: center;
+  line-height: 1.5;
 }
-.blog article .hana2{
+.blog article .hana2 {
   background-image: url("../images/hana1.png");
   background-repeat: no-repeat;
   background-position: right top;
   padding-top: 80px;
 }
-.hana2 .blog-inner2{
+.hana2 .blog-inner2 {
   width: 450px;
   margin: 0 auto;
 }
-.hana2 .blog-inner2 figure{
+.hana2 .blog-inner2 figure {
   margin-bottom: 80px;
   opacity: 0;
 }
-.hana2 .blog-inner2 figure.on{
+.hana2 .blog-inner2 figure.on {
   opacity: 1;
 }
-.hana2 .blog-inner2 img{
+.hana2 .blog-inner2 img {
   margin-bottom: 10px;
 }
-.hana2 .blog-inner2 a{
-  
-}
-.hana2 .blog-inner2 figcaption h3{
+.hana2 .blog-inner2 a {}
+.hana2 .blog-inner2 figcaption h3 {
   line-height: 1.3;
   color: #c69d97;
   font-size: 20px;
 }
-.hana2 .blog-inner2 .koment{
+.hana2 .blog-inner2 .koment {
   font-size: 14px;
   line-height: 1.2;
   color: #494848;
 }
-
 /*---------------------------
 活動ページ　body.katudou
 ----------------------------*/
-.katudou article{
-  margin-bottom:100px;
+.katudou article {
+  margin-bottom: 200px;
 }
-.katudou h2{
-  margin-bottom: 80px;
+.katudou h2 {
+  margin-bottom: 70px;
 }
-.katudou h2 span{
+.katudou h2 span {
   margin-bottom: 80px;
   text-align: center;
   color: #c69d97;
 }
-.katudou section{
+.katudou section {
   width: 900px;
   margin: 0 auto;
-  margin-bottom: 40px;
-  border-bottom: 15px solid #f4efee;
-　overflow: hidden;
+  margin-bottom: 70px;
+  overflow: hidden;
 }
-.katudou section{
+.katudou section {
   opacity: 0;
 }
-.katudou section.on{
+.katudou section.on {
   opacity: 1;
 }
-.katudou h3{
+.katudou h3 {
   color: #c69d97;
   font-size: 18px;
   margin-bottom: 10px;
 }
-.katudou p{
-	line-height: 1.8;
+.katudou p {
+  line-height: 1.8;
 }
-
-.zyosi img{
-	float: left;
-	padding: 20px 20px 60px 0;
+.kenkou img {
+  float: left;
+  padding: 0 20px 80px 0;
 }
-
-.eiyou{
-  clear: both;
-  opacity: 0;
+.kodomo {
+  overflow: hidden;
 }
-.eiyou.on{
-  opacity: 1;
-}
-.eiyou img{
+.kodomo img {
   float: right;
+  padding: 0 0 0 20px;
 }
-.eiyou p{
-	width: 670px;
-	margin-right: 20px;
+.kodomo-inner {
+  width: 680px;
 }
-
-.katudou .syoku{
-  clear: both;
+.zyosi img {
+  float: left;
+  padding: 0 20px 80px 0;
 }
-.syoku.on{
+.campany {
+  overflow: hidden;
 }
-.syoku img{
-	float: left;
-	padding: 20px 20px 80px 0;
+.campany img {
+  float: right;
+  padding: 20px 0 0 20px;
 }
-
-.kozin img{
-	float: left;
-	padding: 20px 20px 160px 0;
+.campany-inner {
+  width: 680px;
 }
-
+.kozin img {
+  float: left;
+  padding: 0 30px 10px 0;
+}
+.kozin2 {
+  margin: 40px 0 0 30px;
+}
 /*--------------------------
 お問合せページ
 ---------------------------*/
-.contact{
-}
-.contact h2{
+.contact {}
+.contact h2 {
   text-align: center;
   line-height: 30px;
   padding-top: 10px;
 }
-.contact p{
+.contact p {
   text-align: center;
   margin-bottom: 60px;
   opacity: 0;
 }
-.contact p.on{
+.contact p.on {
   opacity: 1;
 }
-.contact form{
+.contact form {
   width: 450px;
   margin: 0 auto;
   margin-bottom: 30px;
   text-align: center;
   opacity: 0;
 }
-.contact form.on{
+.contact form.on {
   opacity: 1;
 }
-.contact table{
+.contact table {
   margin-bottom: 30px;
 }
-.contact tr{}
-.contact th{
+.contact tr {}
+.contact th {
   text-align: right;
   font-weight: normal;
   padding-right: 20px;
 }
-.contact td{
-}
-.contact td input{
+.contact td {}
+.contact td input {
   background-color: #f4efee;
   border: none;
   margin: 0 0 10px 0;
   padding: 5px 0 5px 0;
 }
-.contact td textarea{
+.contact td textarea {
   background-color: #f4efee;
   border: none;
 }
-.contact th.otoiawase{
+.contact th.otoiawase {
   vertical-align: top;
   padding-top: 5px;
 }
-.contact button{
+.contact button {
   background-color: #c69d97;
   border: none;
   color: #fff;
   padding: 5px 40px;
 }
-
-
-
-

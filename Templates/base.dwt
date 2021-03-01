@@ -18,6 +18,7 @@
 <script type="text/javascript" src="../js/parallax.js"></script> 
 <script type="text/javascript" src="../js/hamburger-menu.js"></script>
 <script type="text/javascript" src="../js/hover-image.js"></script>
+<script src="https://kit.fontawesome.com/0a04ea38a7.js" crossorigin="anonymous"></script>
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 <!-- TemplateParam name="class" type="text" value="top" -->
@@ -89,6 +90,7 @@
   </main>
   <!-- TemplateEndEditable -->
   <footer>
+	  <div class="yazirusi"><a href="#top"><i class="fas fa-angle-up"></i></a></div>
     <p><small>Copyright © Chiemi Taira All Rights Reserved. </small></p>
   </footer>
 </div>
